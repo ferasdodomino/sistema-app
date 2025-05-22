@@ -16,20 +16,16 @@
 .formContainer {
   flex: 1; /* A div do formulário ocupa 1 parte do espaço disponível */;
   width: 50%;
-  background-color: #f9f9f9;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center; /* Centralizar o conteúdo verticalmente */ 
 }
-
-.infoTitle {
-
-  width: 500px;
-  height: auto;
+.boxTitle {
+  width: 100%;
+  max-width: 400px;
   padding: 0px 0px 20px 0px;
 }
-
 .title {
   color: #333;
   font-size: 2.2em;
@@ -50,13 +46,12 @@
 }
 
 .input {
-  width: 500px;
+  width: 400px;
   padding: 18px;
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 1em;
   color: #333;
-  background: transparent;
 }
 .input:hover {
   border-color: #007bff; /* Altera a cor da borda ao passar o mouse */
@@ -122,6 +117,16 @@
   display: flex;
   justify-content: center; /* Centralizar a imagem horizontalmente */
   align-items: center; /* Centralizar a imagem verticalmente */
+}
+
+.logoImage {
+  width: 100px;
+  height: auto;
+  padding: 0px 0px 0px 0px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 10px;
 }
 
 .welcomeImage {
